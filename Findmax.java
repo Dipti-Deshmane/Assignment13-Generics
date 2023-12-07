@@ -21,5 +21,9 @@ public class Findmax<T extends Comparable<T>> {
 
         Findmax<Integer> maximum = new Findmax<>();
         System.out.println(maximum.maxFind(66, 77, 88));
+
+        Findmax<Float> maxFloat = new Findmax<>();
+        Float max1 = maxFloat.maxFind(2f,6f,8f);
+        System.out.println(max1);
     }
 }
